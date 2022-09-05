@@ -1,14 +1,16 @@
-import './App.css';
+import Button from './styles/components/button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>React dumb app for testing github action</h1>
-       <button>This another dumb buttom</button>
-      </header>
-    </div>
-  );
+		<div>
+			<header>
+				<h1 className='text-4xl mb-10'>React dumb app for testing github action</h1>
+				<Button>
+					This another dumb buttom
+				</Button>
+			</header>
+		</div>
+	);
 }
 
 export default App;
